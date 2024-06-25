@@ -1,0 +1,29 @@
+.header {
+    height: 66px;
+    background-color: var(--black);
+    
+    &__nav {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    &__block {
+        &:first-child {
+            margin-right: 120px;
+        }
+
+        &:nth-child(2) {
+            flex: 1;
+        }
+
+        &:last-child {
+            text-align: end;
+        }
+    }
+
+    ul {
+        display: flex;
+        gap: 25px;
+    }
+}
